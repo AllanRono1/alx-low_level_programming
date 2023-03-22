@@ -1,2 +1,1 @@
-Tasks
-0. _putchar
+Functions and nested loops
