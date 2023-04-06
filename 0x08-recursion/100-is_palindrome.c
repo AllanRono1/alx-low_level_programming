@@ -1,7 +1,7 @@
 #include "main.h"
 
 int _strlen_recursion(char *s);
-int check_pal(char *s);
+int check_pal(char *s, int i, int len);
 
 /**
  * strlen recursion - return length of string
@@ -12,7 +12,7 @@ int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (1 + _strlen_recursions(s + 1));
+	return (1 + _strlen_recursion(s + 1));
 }
 
 /**
