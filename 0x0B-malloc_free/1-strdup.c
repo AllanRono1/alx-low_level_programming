@@ -3,8 +3,9 @@
 #include "main.h"
 
 /**
- * Entry point - returns a pointer to a newly allocated space in memory
+ * _strdup - returns a pointer to a newly allocated space in memory
  * @str: char
+ * Description: function that returns a pointer to a space in memory
  * Return: 0
  */
 char *_strdup(char *str)
